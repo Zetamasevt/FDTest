@@ -9,6 +9,7 @@ const FDTestScreen = () => {
   const { width: screenWidth, height: screenHeight } = Dimensions.get('screen');
   const [hasPermission, setHasPermission] = useState(null);
   const [ScreenText, setScreenText] = useState('');
+  const [shouldTakePictures, setShouldTakePictures] = useState(false);
   const exercise = 0;
   const [yaw, setYaw] = useState(0);
   const [roll, setRoll] = useState(0);
